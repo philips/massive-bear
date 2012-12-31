@@ -1,0 +1,33 @@
+{{> common_head }}
+  {{> common_topnav}}
+
+  <div class="container-fluid">
+    <!-- Main hero unit for a primary marketing message or call to action -->
+    <div class="hero-unit">
+      <h1>Massive Bear!</h1>
+      <p>This is a seed project for using angular, boostrap, grunt, express and static mustache. Click below to move from this static page to a single page app called myApp.</p>
+      <p><a href="/myApp" class="btn btn-primary btn-large">View myApp &raquo;</a></p>
+    </div>
+
+   <!-- Example row of columns -->
+   <div class="row-fluid">
+     <div class="span4">
+       <h2>Get Your Test On</h2>
+       <p>Get your test on with testacular. Both e2e and unit test configurations.</p>
+       <pre>grunt e2e test</pre>
+     </div>
+     <div class="span4">
+       <h2>Throw a Backend on It</h2>
+       <p>Ready to go with a static express server in server.js. Add some routes and a DB and get going.</p>
+       <pre>grunt server</pre>
+    </div>
+     <div class="span4">
+       <h2>Watch Out, Files!</h2>
+       <p>Uses grunt-contrib-watch and grunt-mac-reload to automatically build and load your page on changes.</p>
+       <pre>grunt watch</pre>
+     </div>
+   </div>
+  </div>
+
+
+{{> common_footer }}
